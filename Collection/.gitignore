@@ -1,0 +1,43 @@
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+# Eclipse Core files
+.loadpath
+
+# Eclipse launch configs
+*.launch
+
+# Java build
+bin/
+target/
+out/
+
+# Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IntelliJ (in case you open same repo there)
+.idea/
+*.iml
+
+# VSCode (optional if you also open in VSCode)
+.vscode/
+
+# Backup / temp
+*.tmp
+*.bak
+*.swp
+*~
