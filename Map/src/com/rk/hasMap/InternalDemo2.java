@@ -34,20 +34,17 @@ class Customer
 		{
 			return true;
 		}
-		else if(obj == null)
+		if(obj == null)
 		{
 			return false;
 		}
-		else if(getClass() != obj.getClass())
+		if(getClass() != obj.getClass())
 		{
 			return false;
 		}
-		else
-		{
 			Customer other= (Customer) obj;
-			return Customer.
-		}
-		
+			return Objects.equals(customerId, other.customerId) && Objects.equals(customerName, other.customerName);
+			
 	}
 }
 
@@ -64,7 +61,7 @@ public class InternalDemo2
 		System.out.println("---------------------");
 		
 		HashMap<Customer, String> map= new HashMap<>();
-		map.put(c1, "A");
+		map.put(c1, "A");   //c1=B
 		map.put(c2, "B");
 		
 		System.out.println(map.size());
